@@ -15,3 +15,99 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 
+body {
+  font-family: sans-serif;
+  padding-left: 156px;
+}
+input {
+border-radius: 4px;
+min-width: 272px;
+height: 40px;
+background-color: #fff;
+border: 1px solid #808080;
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;;
+padding-left: 16px;
+margin-right: 8px;
+transition: background-color 250ms ease;
+}
+
+input:focus {
+  border: 1px solid #4e75ff;
+  color: #000;
+  outline: none; 
+}
+
+input:hover {
+  border: 1px solid #000;
+}
+
+input:disabled {
+  background-color: #fafafa;
+  color: #808080;
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+    cursor: text;
+}
+
+button {
+border-radius: 8px;
+padding-block: 8px;
+padding-inline: 16px;
+width: 75px;
+height: 40px;
+background: #4e75ff;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+border: none;
+outline: none;
+}
+
+button:hover, :focus {
+  border: #6c8cff;
+  color: #000;
+}
+
+button:disabled {
+background-color: #cfcfcf;
+color: #989898;
+}
+.timer {
+  display: flex;
+  gap: 24px;
+  min-width: 346px;
+  margin-top: 32px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
+
